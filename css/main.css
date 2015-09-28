@@ -360,3 +360,7 @@ MEDIA
     padding-left: 30px;
 }
 
+.contact-item a
+{
+    color: #000;
+}
