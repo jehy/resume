@@ -215,16 +215,21 @@ EDUCATION
 /*******************************************
 EXPERIENCES
 *******************************************/
-.job {
+.job, .project {
     margin-bottom: 15px;
 }
 
-.job .where {
+.job .where, .project .where {
     font-size: 1.4em;
     font-weight: bold;
 }
 
-.job .year {
+.project .where a {
+    text-decoration: underline;
+    color: #000;
+}
+
+.job .year, .project .year {
     font-size: 1.3em;
     opacity: 0.7;
 }
@@ -234,7 +239,7 @@ EXPERIENCES
     font-weight: bold;
 }
 
-.job .description {
+.job .description, .project .description {
     font-size: 1.3em;
     line-height: 1.5em;
 }
@@ -430,4 +435,12 @@ MEDIA
 
 .contact-item a {
     color: #000;
+}
+
+.whitebg {
+    padding-bottom: 200px;
+}
+
+span.used {
+    color: #a75265;
 }
