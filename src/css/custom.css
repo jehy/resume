@@ -1,6 +1,6 @@
 .fa-travis:before
 {
-    background-image: url("../img/travis.png");
+    background-image: url("../../img/travis.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
@@ -10,7 +10,7 @@
 
 .fa-npm:before
 {
-    background-image: url("../img/npm.png");
+    background-image: url("../../img/npm.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
@@ -20,7 +20,7 @@
 
 .fa-habr:before
 {
-    background-image: url("../img/habr.png");
+    background-image: url("../../img/habr.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;

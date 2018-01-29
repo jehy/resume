@@ -1,0 +1,35 @@
+{
+  "env": {
+    "browser": true,
+    "node": true,
+    "mocha": false
+  },
+  "extends": "airbnb-base",
+  "plugins": [
+    "standard",
+    "promise"
+  ],
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true
+      }
+    ],
+    "one-var": "off",
+    "padded-blocks": "off",
+    "no-plusplus": "off",
+    "arrow-spacing": "off",
+    "object-curly-spacing": "off",
+    "prefer-const": "warn",
+    "no-unused-vars": "warn",
+    "object-shorthand": "warn",
+    "no-param-reassign": "warn",
+    "no-console": "warn",
+    "no-multi-spaces": "off",
+    "linebreak-style": [
+      "error",
+      "unix"
+    ]
+  }
+}
