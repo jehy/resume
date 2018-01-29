@@ -8,6 +8,7 @@
     "build-dev": "node ./node_modules/webpack/bin/webpack.js --env=dev --progress --profile --colors",
     "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
     "prepare": "npm run build",
+    "deploy": "npm run build && gh-pages -d dist",
     "test": "npm run build-dev && npm run lint"
   },
   "repository": {
@@ -35,6 +36,7 @@
     "eslint-plugin-standard": "3.0.1",
     "extract-text-webpack-plugin": "3.0.0",
     "file-loader": "1.1.6",
+    "gh-pages": "1.1.0",
     "html-webpack-plugin": "2.29.0",
     "style-loader": "0.20.1",
     "webpack": "3.2.0",
