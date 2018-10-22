@@ -13,11 +13,15 @@
     "import/no-extraneous-dependencies": [
       "error",
       {
-        "devDependencies": true
+        "devDependencies": [
+          "test/**.js",
+          "webpack.config",
+          "webpack.dev.js",
+          "webpack.prod.js",
+          "src/js/**/*.js"
+        ]
       }
     ],
-    "one-var": "off",
-    "padded-blocks": "off",
     "no-plusplus": "off",
     "arrow-spacing": "off",
     "object-curly-spacing": "off",
@@ -25,8 +29,6 @@
     "no-unused-vars": "warn",
     "object-shorthand": "warn",
     "no-param-reassign": "warn",
-    "no-console": "warn",
-    "no-multi-spaces": "off",
     "linebreak-style": [
       "error",
       "unix"
