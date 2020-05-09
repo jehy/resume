@@ -6,8 +6,8 @@
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(674f50d287a8c48dc19ba404d20fe713.eot);
-  src: url(674f50d287a8c48dc19ba404d20fe713.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(af7ae505a9eed503f8b8e6982036873e.woff2) format('woff2'), url(fee66e712a8a08eef5805a46892932ad.woff) format('woff'), url(b06871f281fee6b241d60582ae9369b9.ttf) format('truetype'), url(912ec66d7572ff821749319396470bde.svg#fontawesomeregular) format('svg');
+  src: url(8b43027f47b20503057dfbbaa9401fef.eot);
+  src: url(8b43027f47b20503057dfbbaa9401fef.eot?#iefix&v=4.7.0) format('embedded-opentype'), url(20fd1704ea223900efa9fd4e869efb08.woff2) format('woff2'), url(f691f37e57f04c152e2315ab7dbad881.woff) format('woff'), url(1e59d2330b4c6deb84b340635ed36249.ttf) format('truetype'), url(c1e38fd9e0e74ba58f7a2b77ef29fdd3.svg#fontawesomeregular) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -2336,8 +2336,8 @@
   clip: auto;
 }
 /*!
- * Bootstrap v3.4.0 (https://getbootstrap.com/)
- * Copyright 2011-2018 Twitter, Inc.
+ * Bootstrap v3.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -2602,8 +2602,8 @@ th {
 }
 @font-face {
   font-family: "Glyphicons Halflings";
-  src: url(f4769f9bdb7466be65088239c12046d1.eot);
-  src: url(f4769f9bdb7466be65088239c12046d1.eot?#iefix) format("embedded-opentype"), url(448c34a56d699c29117adc64c43affeb.woff2) format("woff2"), url(fa2772327f55d8198301fdb8bcfc8158.woff) format("woff"), url(e18bbf611f2a2e43afc071aa2f4e1512.ttf) format("truetype"), url(89889688147bd7575d6327160d64e760.svg#glyphicons_halflingsregular) format("svg");
+  src: url(5be1347c682810f199c7f486f40c5974.eot);
+  src: url(5be1347c682810f199c7f486f40c5974.eot?#iefix) format("embedded-opentype"), url(be810be3a3e14c682a257d6eff341fe4.woff2) format("woff2"), url(82b1212e45a2bc35dd731913b27ad813.woff) format("woff"), url(4692b9ec53fd5972caa2f2372ae20d16.ttf) format("truetype"), url(060b2710bdbbe3dfe48b58d59bd5f1fb.svg#glyphicons_halflingsregular) format("svg");
 }
 .glyphicon {
   position: relative;
@@ -9169,7 +9169,7 @@ button.close {
   }
 }.fa-travis:before
 {
-    background-image: url(20feeadb48fc2492ba741d89cb5a5c8a.png);
+    background-image: url(21e7b8e31011acde09bc144a61989ba7.png);
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
@@ -9179,7 +9179,7 @@ button.close {
 
 .fa-npm:before
 {
-    background-image: url(cebfe21194c4f3d4b59bc7e54adb8841.png);
+    background-image: url(00f6b60f064061c394eaf349012b6a62.png);
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
@@ -9189,7 +9189,7 @@ button.close {
 
 .fa-habr:before
 {
-    background-image: url(3a66a7e3797caee82a00f3bf10a40a19.png);
+    background-image: url(158d9242a0d5f02143eb0691dcd237d7.png);
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
@@ -9298,7 +9298,7 @@ PHOTO (AVATAR)
 #text-header:after {
     width: 100%;
     height: 3px;
-    background: url(17f26d5b378f7ba4e6e3e6f3820a87a5.png);
+    background: url(89709bd4c83e57919361fda219e24ab7.png);
     margin-top: 15px;
     content: '';
     display: block;
@@ -9567,11 +9567,11 @@ LANGUAGES
 #language-skills .skill .icons {
     width: 111px;
     height: 14px;
-    background: url(f208e3140527f2f928550160147318ab.png) no-repeat;
+    background: url(3f651b28f43f8dd5616a357051a17477.png) no-repeat;
 }
 
 #language-skills .skill .icons-red {
-    background: url(5b2e184448984ce470e0b8d27754d0d4.png) no-repeat;
+    background: url(b9355f58d5c9e48c18c50a4d85a4fd4f.png) no-repeat;
 }
 
 /*******************************************
