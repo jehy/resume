@@ -200,14 +200,14 @@ EDUCATION
 }
 
 #education .description h3, #tests .description h3 {
-    font-size: 1.6em;
+    font-size: 1.3em;
     margin: 0;
     padding: 0;
     font-weight: 700;
 }
 
 #education .description p, #tests .description p {
-    font-size: 1.3em;
+    font-size: 1.0em;
     margin-top: 5px;
     padding: 0;
 }

@@ -1,31 +1,28 @@
-.fa-travis:before
-{
+.fa-travis:before {
     background-image: url("../../img/travis.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
     height: 25px;
-    content:"";
+    content: "";
 }
 
-.fa-npm:before
-{
+.fa-npm:before {
     background-image: url("../../img/npm.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
     height: 25px;
-    content:"";
+    content: "";
 }
 
-.fa-habr:before
-{
+.fa-habr:before {
     background-image: url("../../img/habr.png");
     background-size: 25px 25px;
     display: inline-block;
     width: 25px;
     height: 25px;
-    content:"";
+    content: "";
 }
 
 @media print {
@@ -43,17 +40,28 @@
     #language-skills .skill .icons-red {
         background: url(../../img/star-black.png) no-repeat !important;
     }
+
     .legend:before {
         background: #c6c6c6 !important;
     }
+
     .skills-legend:before {
         background: #c6c6c6 !important;
     }
-    #photo{
+
+    #photo {
         -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
         filter: grayscale(100%);
     }
+
     .project .where a[href]:after {
         display: none;
     }
+    body{
+        page-break-inside: avoid;
+    }
+}
+
+.box ul li {
+    font-size: 1.3em;
 }
