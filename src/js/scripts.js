@@ -1,4 +1,4 @@
-const $ = require('jquery');
+/* const $ = require('jquery');
 
 const callback = function () {
   $('.item-skills').each(function () {
@@ -22,3 +22,4 @@ window.onresize = function () {
   clearTimeout(resize);
   resize = setTimeout(() => callback(), 100);
 };
+*/
