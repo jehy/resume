@@ -27,3 +27,30 @@
     height: 25px;
     content:"";
 }
+
+@media print {
+    div.item-skills {
+        background-color: #CCCCCC !important;
+        color: #000000 !important;
+    }
+
+    #language-skills .skill .icons {
+        width: 111px;
+        height: 14px;
+        background: none;
+    }
+
+    #language-skills .skill .icons-red {
+        background: url(../../img/star-black.png) no-repeat !important;
+    }
+    .legend:before {
+        background: #c6c6c6 !important;
+    }
+    .skills-legend:before {
+        background: #c6c6c6 !important;
+    }
+    #photo{
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+}
