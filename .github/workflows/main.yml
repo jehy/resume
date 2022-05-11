@@ -17,6 +17,7 @@ jobs:
           npm ci
           npm tst
           npm run build
+          npm run pdf
 
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
