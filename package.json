@@ -5,9 +5,9 @@
   "keywords": [],
   "scripts": {
     "lint": "node ./node_modules/eslint/bin/eslint.js ./src/js",
-    "build-dev": "node ./node_modules/webpack/bin/webpack.js --env=dev --progress --profile --colors",
-    "build": "node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
-    "pdf": "node ./pdf.js",
+    "build-dev": "NODE_OPTIONS=--openssl-legacy-provider node ./node_modules/webpack/bin/webpack.js --env=dev --progress --profile --colors",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider node ./node_modules/webpack/bin/webpack.js --env=prod --progress --profile --colors",
+    "pdf": "NODE_OPTIONS=--openssl-legacy-provider node ./pdf.js",
     "prepare": "npm run build",
     "test": "npm run build-dev && npm run lint",
     "ncu": "ncu -u --reject bootstrap"
@@ -21,7 +21,8 @@
   "dependencies": {
     "font-awesome": "4.7.0",
     "html5shiv": "3.7.3",
-    "jquery": "3.6.0"
+    "jquery": "3.6.0",
+    "terser-webpack-plugin": "5.3.9"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
@@ -38,11 +39,11 @@
     "eslint-plugin-standard": "4.0.1",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "file-loader": "6.0.0",
-    "html-webpack-plugin": "4.3.0",
+    "html-webpack-plugin": "4.5.2",
     "puppeteer": "14.0.0",
     "style-loader": "1.2.1",
-    "webpack": "4.44.0",
+    "webpack": "4.47.0",
     "webpack-bundle-analyzer": "3.8.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "3.3.12"
   }
 }
