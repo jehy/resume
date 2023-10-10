@@ -19,6 +19,7 @@ module.exports = {
     }),
   ],
   output: {
+    hashFunction: 'md4',
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
